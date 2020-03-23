@@ -10,8 +10,8 @@
         <div slot="text">最新消息</div>
       </tab-item>
       <tab-item path='/feature'>
-        <img src="~assets/img/cog.svg" alt="" slot="icon">
-        <div slot="text">功能</div>
+        <img src="~assets/img/search.svg" alt="" slot="icon">
+        <div slot="text">搜尋</div>
       </tab-item>
       <tab-item path='/about'>
         <img src="~assets/img/address-card.svg" alt="" slot="icon">

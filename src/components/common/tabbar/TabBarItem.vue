@@ -18,13 +18,13 @@ export default {
   },
   data() {
     return {
-      // isActive: false,
     }
   },
   methods: {
     itemClick() {
-      this.$router.replace(this.path)
-      // console.log(this.$route);
+      // 更換路徑(catch防報錯)
+      this.$router.replace(this.path).catch(err => {
+      })
     }
   },
   props: {
@@ -55,7 +55,8 @@ export default {
     line-height: 28px;
     /* text-align: center; */
 
-    background-color: rgba(123, 237, 159,0.5);
+    background-color: #9AECDB;
+    /* background-color: rgba(29, 209, 161,0); */
 
   }
   .tab-item-img{
