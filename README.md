@@ -3,7 +3,7 @@
 ## 備註
 因此項目使用的heroku需一段時間開機，如果一直抓不到資料請多重新整理。
 ## 項目展示
-<img src="https://github.com/s95050937/Vue-EarthQuake-App/blob/master/gif/home.gif" width="400px"/><img src="https://github.com/s95050937/Vue-EarthQuake-App/blob/master/gif/news.gif"  width="400px"/><img src="https://github.com/s95050937/Vue-EarthQuake-App/blob/master/gif/search.gif"  width="400px"/><img src="hhttps://github.com/s95050937/Vue-EarthQuake-App/blob/master/gif/about.gif"  width="400px"/>
+<img src="https://github.com/s95050937/Vue-EarthQuake-App/blob/master/gif/home.gif" width="400px"/><img src="https://github.com/s95050937/Vue-EarthQuake-App/blob/master/gif/news.gif"  width="400px"/><img src="https://github.com/s95050937/Vue-EarthQuake-App/blob/master/gif/search.gif"  width="400px"/><img src="https://github.com/s95050937/Vue-EarthQuake-App/blob/master/gif/about.gif"  width="400px"/>
 
 
 ## User Story 
