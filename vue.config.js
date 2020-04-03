@@ -16,7 +16,21 @@ module.exports = {
       .set('network', resolve('src/network'))
       .set('store', resolve('src/store'))
       .set('view', resolve('src/view'))
-  }
+
+    // config.plugin("html").tap(args => {
+    //   args[0].minify = false;
+    //   return args;
+    // });
+  },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Vue-EarthQuake-App/'
+    : '/'
+  // css: {
+  //   modules: true
+  // },
+  // // publicPath: process.env.NODE_ENV === 'production' ? '/production-sub-path/' : '/',
+  // publicPath: process.env.NODE_ENV === 'production' ? './' : '/production-sub-path/',
+  // productionSourceMap: false,
 }
 
 
